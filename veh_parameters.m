@@ -15,3 +15,5 @@ par.Caf  = 120000;                  % Front axle cornering stiffness
 par.Car = 190000;                   % Rear axle cornering stiffness
 par.Kus = par.m_f/par.Caf - par.m_r/par.Car; % understeer gradient
 V_ref = 90 /3.6;                    % pre-maneuver speed, km/h
+par.mu = 0.9;
+par.Fz = par.mass*par.g;
